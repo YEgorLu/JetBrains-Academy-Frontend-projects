@@ -1,0 +1,15 @@
+#button-wrapper {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+button {
+    background-color: coral;
+    border: none;
+    padding: 2px 5px;
+}
+textarea {
+    width: 99%;
+}
