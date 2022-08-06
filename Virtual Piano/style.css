@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #e824ff;
+}
+.container {
+    margin: 35vh auto;
+    width: fit-content;
+}
+.black-keys{
+    display: flex;
+    position: relative;
+    top: 100px;
+    height: 100px;
+}
+.white-keys{
+    display: flex;
+}
+#key1{
+    margin-left: 3rem;
+}
+#key3{
+    margin-left: 6rem;
+}
+kbd{
+    border: 3px solid black;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+.white-keys kbd {
+    background: white;
+    width: 4rem;
+    height: 12rem;
+    line-height: 20rem;
+}
+.black-keys kbd{
+    background: black;
+    width: 2rem;
+    height: 8rem;
+    line-height: 10rem;
+    color: white;
+    margin-left: 2rem;
+}
