@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    position: absolute;
+}
+
+.planet-area {
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 500px;
+}
+
+.rocket {
+    bottom: 30px;
+    left: 20px;
+    transform: scale(.4) rotate(30deg);
+    transition: top 3s linear, left 3s linear;
+    z-index: 1;
+}
+
+.planet {
+    bottom: -250px;
+    left: -200px;
+    transform: scale(.7);
+    z-index: 2;
+}
+
+.space {
+    background: url("photos/space.png");
+    height: 100vh;
+}
+
+.control-panel {
+    border-radius: 20px;
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    height: 400px;
+    padding: 10px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    width: 400px;
+}
+
+.control-panel__inner {
+    border-radius: 20px;
+    background: #aa3020;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.levers {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+input[type="range"] {
+    width: 10px;
+    -webkit-appearance: slider-vertical;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+input[type="button"] {
+    background: #03041c;
+    border: none;
+    border-radius: 20px;
+    color: lightgray;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type="button"]:hover {
+    background: #030432;
+}
+
+.check-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.password-panel {
+    display: flex;
+    justify-content: center;
+}
+
+#password__button {
+    margin-left: 15px;
+}
+
+#password__input {
+    border: .5px #767676;
+    border-radius: 10px;
+    color: #66cc66;
+    padding: 0 10px;
+}
+
+#launch-button {
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+}
