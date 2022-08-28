@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Мое протфолио</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+	<button class="hamburger">
+	<span></span><span></span><span></span><span></span>
+	</button>
+	<nav class="menu">
+		<ul>
+			<li><a href="#about">Обо мне</a></li>
+			<li><a href="#portfolio">Портфолио</a></li>
+			<li><a href="#contacts">Контакты</a></li>
+		</ul>
+	</nav>
+	<h1>Егор Лукьянчиков, начинающий фронтендер</h1>
+</header>
+<section id="about">
+	<div class="photos">
+		<img src="photos/me.jpg" alt="мое фото">
+	</div>
+	<div class="content">
+		<h2>Обо мне</h2>
+		<p>Привет, меня зовут Егор и я изучаю фронтенд уже месяц</p>
+		<p>Пробую себя в этой отрасли, делая небольщие проекты, и мне нравится магия, которую я творю на экране</p>
+		<p><b>Skills</b>: JS, C#, html, css</p>
+	</div>
+</section>
+<section id="portfolio">
+	<h2>Портфолио</h2>
+	<div class="portfolio-items">
+		<div class="portfolio-item">
+			<img class="portfolio-item-img" src="gifs/to-do_list.gif" alt="To-Do list">
+			<p class="portfolio-item-description">To-Do list</p>
+			<button class="open-window" name="list"></button>
+		</div>
+		<div class="portfolio-item">
+			<img class="portfolio-item-img" src="gifs/flashcards.gif" alt="Flipping cards">
+			<p class="portfolio-item-description">Flipping cards</p>
+			<button class="open-window" name="cards"></button>
+		</div>
+		<div class="portfolio-item">
+			<img class="portfolio-item-img" src="photos/virtual_piano.jpg" alt="Virtual piano">
+			<p class="portfolio-item-description">Virtual piano</p>
+			<button class="open-window" name="piano"></button>
+		</div>
+	</div>
+</section>
+<section id="contacts">
+	<h2>Контакты</h2>
+	<div id="links">
+		<a href="https://t.me/egor_lu" id="button-telegram" class="fa fa-telegram" target="_blank"></a>
+		<a href="https://github.com/YEgorLu" id="button-github" class="fa fa-github" target="_blank"></a>
+	</div>
+</section>
+<footer>
+	<p>2022</p>
+</footer>
+</body>
+</html>
